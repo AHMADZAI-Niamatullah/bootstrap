@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a template with bootsrap</title>
+    <link rel="stylesheet" href="bootstrap-5/css/bootstrap.css">
+    <!-- lien vers le fichier bootsrap  -->
+    <link rel="stylesheet" href="css/create.css">
+    <!-- lien vers le fichier css  -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!-- cdn font awesome for bootsrap  -->
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h1>Company Name</h1>
+                </div>
+                <div class="col-md-8">
+                    <!-- ul#ul>li*5>a -->
+                    <ul id="menu" class="float-md-end">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Gallery</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- #banner>.container>.row -->
+    <div id="banner" class="py-5">
+        <!-- to give him padding verticaly i use py class  -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="banner-title">
+                        <h1 class="title">Some heading</h1>
+                        <p class="lead">
+                            <!-- the class lead beggers the font weight  -->
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum provident quis nulla tempore aperiam praesentium aliquid obcaecati nesciunt rem cumque porro debitis, quia ab quidem ea placeat molestiae saepe laboriosam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- .container>.row -->
+    <div class="container section">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-head">Some Heading Gose Here</h2>
+            </div>
+
+            <!-- <div class="col-md-4"> -->
+                <!-- here is we want to add col-sm-6 when the screen size come to small size then we want to divid by two columns  -->
+            <div class="col-sm-6 col-md-4">
+                <div class="service-box">
+                    <i class="fas fa-anchor"></i>
+                    <h3>Some Heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatem omnis id ducimus maxime voluptatum autem eos voluptas ullam totam.</p>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="service-box">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Some Heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatem omnis id ducimus maxime voluptatum autem eos voluptas ullam totam.</p>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="service-box">
+                    <i class="far fa-gem"></i>
+                    <h3>Some Heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatem omnis id ducimus maxime voluptatum autem eos voluptas ullam totam.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- #testimonials>.container>.row -->
+    <div id="testimonials" class="section">
+        <div class="container">
+            <div class="row">
+                <!-- .col-md-12+.col-md6+.col-md-6 -->
+                <div class="col-md-12">
+                    <h2  class="section-head text-white">Some Heading Gose Here</h2>
+                </div>
+                <div class="col-md-6">
+                    <div class="testimonial">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, <br> voluptatum, minus earum atque cumque.</p>
+                        <img src="img/write-5170935_640.jpg" alt="">
+                        <div class="author">some one</div>
+                        <div class="author-company">Lorem, ipsum dolor.</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="testimonial">
+                        <p>Lorem ipsum dolor sit amet  br
+                            consectetur adipisicing elit. Eaque, <br>  atque cumque. Lorem, ipsum dolor.</p>
+                        <img src="img/business-2904770_640.jpg"  alt="">
+                        <div class="author">some one</div>
+                        <div class="author-company">Lorem, ipsum dolor.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- #news>.row>.col-md-12+.col-lg-3 -->
+    <div id="news" class="container section">
+        <div class="row">
+            <div class="col-md-12">
+                <h2  class="section-head">Recent news</h2>
+            </div>
+            <!-- <div class="col-lg-3"> -->
+                <!-- here we want to add col-md-6 to show the images by two columns in medium size then for the col-sm-6 small size  -->
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="news-post">
+                    <img src="img/post1.jpg" alt="">
+                    <h3><a href="#">News Heading Here</a></h3>
+                    <div class="post-date"> <i class="fas fa-calendar-alt"></i> April 28, 2021</div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi quis, exercitationem illo id maxime modi?
+                    </p>
+                    <a href="" class="readmore">Read More <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="news-post">
+                    <img src="img/post2.jpg" alt="">
+                    <h3><a href="#">News Heading Here</a></h3>
+                    <div class="post-date"> <i class="fas fa-calendar-alt"></i> April 28, 2021</div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi quis, exercitationem illo id maxime modi?
+                    </p>
+                    <a href="" class="readmore">Read More <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="news-post">
+                    <img src="img/post3.jpg" alt="">
+                    <h3><a href="#">News Heading Here</a></h3>
+                    <div class="post-date"> <i class="fas fa-calendar-alt"></i> April 28, 2021</div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi quis, exercitationem illo id maxime modi?
+                    </p>
+                    <a href="" class="readmore">Read More <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="news-post">
+                    <img src="img/post4.jpg" alt="">
+                    <h3><a href="#">News Heading Here</a></h3>
+                    <div class="post-date"><i class="fas fa-calendar-alt"></i> April 28, 2021</div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi quis, exercitationem illo id maxime modi?
+                    </p>
+                    <a href="" class="readmore">Read More <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- #footer-sidebar>.container>.row>.col-md-4 -->
+    <div id="footer-sidebar">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-md-4"> -->
+                    <!-- and also the same thing for  footer-widget -->
+                <div class="col-sm-6 col-md-4">
+                    <div class="footer-widget">
+                        <h4>About Company</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sapiente voluptate blanditiis eos officia ex aspernatur consequuntur laudantium?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, adipisci?$</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="footer-widget">
+                        <h4> Latest News</h4>
+                        <!-- ul>li>a -->
+                        <ul>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i> Lorem ipsum dolor sit amet consectetur.</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i> Lorem ipsum dolor sit amet consectetur.</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i> Lorem ipsum dolor sit amet consectetur.</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i> Lorem ipsum dolor sit amet consectetur.</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i> Lorem ipsum dolor sit amet consectetur.</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="footer-widget">
+                        <h4>Company Address</h4>
+                        <address>
+                            <b>Ahmadzai , Inc.</b> <br>
+                            59 place de corneille Poissy <br>
+                            Tele : 01 20 10 25 12 
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- #footer>.container>.row>.col-md-6+.col-md-6 -->
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">&copy; Niamatullah AHMADZAI 2021.</div>
+                <div class="col-md-6">
+                    <!-- ul#social-icons -->
+                    <ul id="social-icons" class="float-md-end">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-github"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

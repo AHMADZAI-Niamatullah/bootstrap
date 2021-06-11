@@ -1,0 +1,11 @@
+.container{
+    border: 2px solid #000;
+}
+
+.row{
+    border: 2px solid red;
+}
+
+/* .col-md-12{
+    text-align: center;
+} */

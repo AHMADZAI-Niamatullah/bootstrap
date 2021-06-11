@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout with bootsrap</title>
+    <link rel="stylesheet" href="bootstrap-5/css/bootstrap.css">
+    <!-- we have to write the links after Bootsrap  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- lien vers le fichier style.css  -->
+</head>
+<body>
+    <!-- .container>.row>.col-12{Website} -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12" id="header">Website Name</div>
+        </div> 
+
+        <div class="row">
+            <div class="col-12" id="menu">
+                <!-- ul>li*5>a -->
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Aboute us</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- <div class="col-8" id="content"> -->
+                <!-- here we want to add col-md-8 it means it will show the same thing medium & large screen the same result but with small screen it will take full width  -->
+            <div class="col-md-8" id="content">
+                <h2>Sub Heading</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque qui dolorum dignissimos temporibus dolore quasi deserunt repellat voluptatibus, eum, ipsa, saepe vel! Sed doloremque dolorem repellendus similique a labore asperiores id, explicabo reiciendis quia animi ducimus esse dolor nobis voluptate culpa voluptas quae eveniet voluptatibus perspiciatis vero. Quaerat, consequuntur deleniti eius laboriosam distinctio quis necessitatibus, voluptates voluptatibus nostrum iure natus quas doloremque numquam tempore totam? Iure a eius repellendus asperiores unde temporibus veniam qui quasi iste hic, ab tenetur excepturi quidem, architecto accusantium! Aut ducimus temporibus possimus quo laborum, aspernatur quibusdam labore cumque nemo voluptates voluptas aliquid eligendi deleniti a illum. Totam iure obcaecati iusto sit esse ipsum aliquid vel. Quae eos sequi, laboriosam esse harum aliquid. Sequi sit quas nihil hic perferendis inventore excepturi!</p>
+            </div>
+
+            <!-- <div class="col-4" id="sidebar"> -->
+            <div class="col-md-4" id="sidebar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Aboute us</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-12" id="footer">
+                &copy; @copyright 2021 Niamatullah 
+            </div>
+        </div>
+    </div>
+</body>
+</html>

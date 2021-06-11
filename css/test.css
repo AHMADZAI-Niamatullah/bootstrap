@@ -1,0 +1,9 @@
+.container{
+    border: 5px solid blue;
+}
+
+#jumbo-second{
+    background: url('../../html&css/img/student-849825_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootsrap Display</title>
+    <link rel="stylesheet" href="bootstrap-5/css/bootstrap.css">
+    <!-- we have to write the links after Bootsrap  -->
+    <link rel="stylesheet" href="css/display.css">
+    <!-- lien vers le fichier style.css  -->
+</head>
+<body>
+    <h1 style="text-align: center;">Bootsrap Display</h1>
+
+    <div class="container">
+        <!-- by the default they are display block they all the width here we add d-inline-block  -->
+        <!-- <div class="p-3 pink"> -->
+        <!-- <div class="p-3 d-inline-block pink"> -->
+        <div class="p-3 d-lg-inline-block pink">
+            <h2>Col A</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+
+        <!-- <div class="p-3 green">  -->
+        <!-- <div class="p-3 d-inline-block green">  -->
+        <div class="p-3 d-lg-inline-block green"> 
+            <h2>Col B</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 pink">
+                <h2>Col A</h2>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt reiciendis sint ab expedita aut nulla beatae, obcaecati veniam iste id consequatur ut recusandae tenetur mollitia ducimus ipsa quod impedit deserunt?
+            </div>
+            <!-- <div class="col-md-3 blue d-none d-print-block"> -->
+                <!-- not showing here but in the time of print show him  -->
+
+                <!-- show him but the time of print no -->
+            <div class="col-md-3 blue  d-print-none">
+                <h2>Col B</h2>
+            ut recusandae tenetur mollitia ducimus ipsa quod impedit deserunt?
+            </div>
+
+            <!-- if we add here d-none class it will hide it  -->
+            <!-- <div class="col-md-3 d-none green"> -->
+                <!-- it's work with large medium size but when we came to extra small it will hide -->
+            <!-- <div class="col-md-3 d-none d-sm-block green"> -->
+                <!-- to hide it for large screen and when we come to the small it will show him  -->
+            <div class="col-md-3 d-block d-sm-none green">
+                <h2>Col C</h2>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt reiciendis sint ab expedita aut nulla beatae, obcaecati veniam iste id consequatur ut recusandae tenetur mollitia ducimus ipsa quod impedit deserunt?
+            </div>
+            <div class="col-md-3 orange">
+                <h2>Col D</h2>
+               sint ab expedita aut nulla beatae, obcaecati veniam iste id consequatur ut recusandae tenetur mollitia ducimus ipsa quod impedit deserunt?
+            </div>
+        </div>
+    </div>
+
+
+    <br><br><br><br><br><br>
+
+
+    <div class="container">
+        <!-- <div class="d-flex" style="border:2px solid blue"> -->
+        <!-- <div class="d-flex-column" style="border:2px solid blue"> -->
+        <div class="d-flex" style="border:2px solid blue">
+            <div class="pink p-3 order-3">Col A</div>
+            <div class="blue p-3 order-1">Col B</div>
+            <div class="green p-3 order-2">Col C</div>
+        </div>
+    </div>
+</body>
+</html>
